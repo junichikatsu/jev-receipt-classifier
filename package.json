@@ -1,0 +1,24 @@
+{
+  "name": "jev-sample",
+  "version": "1.0.0",
+  "description": "Jev (TypeSafe AI) で家計簿レシートを自動分類するサンプル",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.ts",
+    "batch": "node --env-file-if-exists=.env src/batch.ts",
+    "typecheck": "tsc --noEmit",
+    "experiment": "node --env-file-if-exists=.env src/experiment.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

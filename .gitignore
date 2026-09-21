@@ -1,0 +1,8 @@
+node_modules/
+.env
+
+# Claude Code のローカル設定・スキル
+.claude/
+
+# ブログ記事の原稿（Qiita に投稿するためリポジトリには含めない）
+article.md
